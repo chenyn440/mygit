@@ -10,3 +10,15 @@
     <p>efdsdtgryy</p>
   </body>
   </html>
+  <script>
+    let code
+    for (let item of data) {
+      code += `<tr>
+        <td>${item.name}</td>
+        <td>${item.name}</td>
+        <td>${item.name}</td>
+      </tr>`
+    }
+    document.getElementById('tbody').innerHTML = code
+  </script>
+
